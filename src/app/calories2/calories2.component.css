@@ -1,0 +1,15 @@
+td{
+    background-color: blanchedalmond;
+}
+th{
+    background-color: rgba(217, 173, 107, 0.87);
+}
+table{
+    border-collapse: collapse;
+    
+}
+th, td {
+    border: 1px solid black;
+    
+    text-align: left;
+}

@@ -1,0 +1,44 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333536;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 1.8em;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.header .navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.header .navigation li {
+    font-size: 1.2em;
+}
+
+.header .navigation li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header .navigation li a:hover {
+    color: #03a9f4;
+    text-decoration: underline;
+}
+#welcome{ color: blanchedalmond;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}

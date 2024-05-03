@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+p
+{
+font-size: 1.1em;
+color: rgb(234, 226, 215);
+font-weight: 300;
+margin: 20px 0;
+}
+
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+h1,h2{
+    color: rgb(161, 111, 51);
+}
+ul{
+    color: whitesmoke;
+}

@@ -1,0 +1,37 @@
+/* compte.component.css */
+
+/* Header styles */
+
+/* Main content styles */
+.row {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.col-6 {
+    flex: 0 0 calc(50% - 20px);
+}
+
+/* Table styles */
+table {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px; /* Reduce padding */
+    border: 1px solid black;
+    text-align: left;
+    font-size: 14px; /* Reduce font size */
+}
+
+th {
+    background-color: rgba(217, 173, 107, 0.87);
+}
+
+td {
+    background-color: blanchedalmond;
+}

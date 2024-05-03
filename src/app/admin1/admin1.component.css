@@ -1,0 +1,43 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.thead {
+    background-color: #d9ad6b; /* Light brown header background */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dee2e6; /* Grey borders */
+}
+
+/* Button styling */
+.btn-delete {
+    background-color: #ff8c00; /* Orange button background */
+    color: #fff; /* White button text */
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #ff6b00; /* Darker orange on hover */
+}

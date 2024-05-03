@@ -1,0 +1,33 @@
+form{
+
+    
+  margin-left: 50px;
+  margin-top: 80px;
+ 
+ color: #ffeba7;
+ 
+       position: relative;
+       width: 70%;
+       height: 50%;
+       display: block;
+     
+}
+#age,#taille,#poids,#nom,#prenom{
+   background-color: #a5a8b2;
+
+}
+select{
+
+   background-color:  #a5a8b2;
+}
+.btn{  
+  background-color: #feb103;
+  color: #000000;
+   margin-bottom: 20px;
+ }
+ .btn:hover{  
+  background-color: #feb103;
+  color: #ffeba7;
+   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+ }
+

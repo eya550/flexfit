@@ -1,0 +1,73 @@
+\<body><br>
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header" id="header">
+            Edit Profile
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Nom</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="name" name="name" [(ngModel)]="a.nom">
+                  <button class="btn btn-secondary" type="button" (click)="changernom()">Edit</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="prenom">Prenom</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="prenom" name="prenom" [(ngModel)]="a.prenom">
+                  <button class="btn btn-secondary" type="button" (click)="changerprenom()">Edit</button>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="tel">Tel</label>
+                <div class="input-group">
+                  <input type="tel" class="form-control" id="tel" name="tel" [(ngModel)]="a.tel">
+                  <button class="btn btn-secondary" type="button" (click)="changertel()">Edit</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="pass">Password</label>
+                <div class="input-group">
+                  <input type="password" class="form-control" id="pass" name="pass" [(ngModel)]="a.pass">
+                  <button class="btn btn-secondary" type="button" (click)="changerpassword()">Edit</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="age">Age</label>
+                <div class="input-group">
+                  <input type="number" class="form-control" id="age" name="age" placeholder="Change your age" [(ngModel)]="a.age">
+                  <button class="btn btn-secondary" type="button" (click)="changerage()">Edit</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="poids">Poids</label>
+                <div class="input-group">
+                  <input type="number" class="form-control" id="poids" name="poids" placeholder="Change your weight" [(ngModel)]="a.poids">
+                  <button class="btn btn-secondary" type="button" (click)="changerpoids()">Edit</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="taille">Taille</label>
+                <div class="input-group">
+                  <input type="number" class="form-control" id="taille" name="taille" placeholder="Change your height" [(ngModel)]="a.taille">
+                  <button class="btn btn-secondary" type="button" (click)="changertaille()">Edit</button>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="objectif">Objectif</label>
+                <div class="input-group">
+                  <select id="objectif" name="objectif" class="form-control" [(ngModel)]="a.objectif">
+                    <option value="perte_poids">Perte de poids</option>
+                    <option value="gain_muscle">Gain de muscle</option>
+                  </select>
+                  <button class="btn btn-secondary" type="button" (click)="changerobjectif()">Edit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </body>

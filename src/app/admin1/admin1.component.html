@@ -1,0 +1,30 @@
+<div class="container">
+    <table class="table">
+        <thead class="thead">
+            <tr>
+                <th>nom</th>
+                <th>prenom</th>
+                <th>mail</th>
+                <th>age</th>
+                <th>poids</th>
+                <th>taille</th>
+                <th>genre</th>
+                <th>objectif</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of abonnes">
+                <td>{{ item.nom }}</td>
+                <td>{{ item.prenom }}</td>
+                <td>{{ item.mail }}</td>
+                <td>{{ item.age }}</td>
+                <td>{{ item.poids }}</td>
+                <td>{{ item.taille }}</td>
+                <td>{{ item.genre }}</td>
+                <td>{{ item.objectif }}</td>
+                <td><button class="btn-delete" (click)="supprimer(item.mail)">delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,31 @@
+.content 
+{
+    max-width: 600px;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.content .contentBx h2
+{
+    font-size: 4em;
+    color:blanchedalmond;
+    line-height: 1em;
+
+}
+.content .contentBx p
+{
+font-size: 1.1em;
+color: blanchedalmond;
+font-weight: 300;
+margin: 20px 0;
+}
+.content .contentBx a
+{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #f4c00379;
+    color: blanchedalmond ;
+    text-decoration: none;
+    font-weight : 500; 
+    left-spacing: 1px;
+}

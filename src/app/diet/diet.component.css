@@ -1,0 +1,11 @@
+.img {
+    position: relative;
+    left: 100px; /* Adjust this value according to your needs */
+    top: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 100%;
+}
+.bulk{
+    margin-right: 5px;
+}

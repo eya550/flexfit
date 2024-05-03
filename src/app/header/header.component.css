@@ -1,0 +1,50 @@
+div
+{
+position: sticky;
+top: 1px;
+Left: 0;
+width: 100%;
+height: 20px;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: 
+#333536;
+}
+div .logo {
+    position: relative;
+    font-size: 2em;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-right: auto; 
+    padding-right: 20px; 
+    margin-right: 200px;
+}
+div .navigation
+{
+    position:  relative ;
+    display: inline-flex;
+    margin-left: 200px;
+    right: 300px;
+}
+div .navigation li
+{
+    list-style: none ;
+    display: flex;
+    font-size: 20px;
+}
+div .navigation li a
+{
+    display: inline-block;
+    color: blanchedalmond;
+    margin-right:40px;
+    text-decoration: none;
+}
+div .navigation li a:hover
+{
+    color: #03a9f4;
+}

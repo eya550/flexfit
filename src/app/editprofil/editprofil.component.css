@@ -1,0 +1,35 @@
+/* Ensure the card fills the height of its container */
+.card {
+  height: 100%;
+}
+
+/* Style the header */
+.card-header {
+  background-color: #fde2c5;
+  font-size: 1.5rem; /* Increase font size for better readability */
+}
+
+/* Style the buttons */
+.btn-secondary {
+  background-color: #feb103;
+  color: #fff; /* Change text color to white for better contrast */
+  margin-left: 10px; /* Add some space between the input and button */
+}
+
+/* Optionally style the form inputs for better alignment */
+.input-group input,
+.input-group select {
+  border-radius: 0; /* Remove rounded borders */
+  border-right: none; /* Remove border on the right side of inputs */
+}
+
+.input-group .form-control:last-child {
+  border-top-right-radius: 4px; /* Restore rounded border to the last input in a group */
+  border-bottom-right-radius: 4px; /* Restore rounded border to the last input in a group */
+}
+
+/* Optional: Add some space between form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+

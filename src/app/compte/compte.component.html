@@ -1,0 +1,15 @@
+<body>
+    
+        <div class="row">
+           <div class="col-6"> <app-calories2 *ngIf="abonnes && abonnes.length > 0 && abonnes[0].type === 'calories2'"></app-calories2>
+            <app-calories3 *ngIf="abonnes && abonnes.length > 0 && abonnes[0].type === 'calories3'"></app-calories3>
+            <app-calories4 *ngIf="abonnes && abonnes.length > 0 && abonnes[0].type === 'calories4'"></app-calories4>
+            <app-calories5 *ngIf="abonnes && abonnes.length > 0 && abonnes[0].type === 'calories5'"></app-calories5>
+        </div>
+        <div class="col-6"><app-workout1 *ngIf="abonnes && abonnes.length > 0 && abonnes[0].nomw === 'bulkw'"></app-workout1>
+            <app-workout2 *ngIf="abonnes && abonnes.length > 0 && abonnes[0].nomw === 'cutw'"></app-workout2>
+            <app-workout3 *ngIf="abonnes && abonnes.length > 0 && abonnes[0].nomw === 'bulkm'"></app-workout3>
+            <app-workout4 *ngIf="abonnes && abonnes.length > 0 && abonnes[0].nomw === 'cutm'"></app-workout4>
+        </div>
+        </div>        
+</body>
